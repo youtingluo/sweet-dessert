@@ -1,0 +1,24 @@
+.bg-cover{
+  background-position: center center;
+  background-size: cover;
+}
+.negative-margin{
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+.write-Mode{
+  writing-mode: vertical-rl
+}
+.flex-1 {
+  flex: 1;
+}
+.fz-20 {
+  font-size: 20px;
+  line-height: 1.2;
+}
+@include media-breakpoint-down(md){
+  .no-pd {
+    padding-left: 0;
+    padding-right: 0;
+}
+}

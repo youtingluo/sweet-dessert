@@ -1,0 +1,30 @@
+footer .font{
+  margin-top: 115.5px;
+}
+@include media-breakpoint-down(md){
+  footer span.h4{
+    font-size: 1.4rem;
+  }
+}
+@include media-breakpoint-down(sm){
+  footer .font{
+    margin-top: 40px;
+  }
+  footer span.h4{
+    font-size: 1.5rem;
+  }
+}
+footer .times{
+  font-family: times;
+}
+footer .footer-input{
+  background: $primary-light;
+  height: 56px;
+  border: none;
+  width: 100%;
+}
+footer input[type="email"]{
+  padding-left: 50px;
+  // width: 100%;
+  height: 56px;
+}

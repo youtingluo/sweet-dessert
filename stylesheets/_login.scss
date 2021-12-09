@@ -1,0 +1,21 @@
+section.login{
+  .container {
+    overflow: hidden;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  h1{
+    font-size: 36px;
+    margin-bottom: 0;
+  }
+  .social-title {
+    margin-bottom: 36px;
+  }
+  .social-button {
+    margin-bottom: 1rem;
+  }
+  .btn-secondary {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
